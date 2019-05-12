@@ -1,17 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Short+Stack:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Short+Stack:100,200,300,400,500,600,700|Nosifer:100,200,300,400,500,600,700,800,100');
 
 body {
     font-family: 'Short+Stack', sans-serif;
     background-color: black;
 }
 
+/* Navbar */
+
 .navbar {
     display: flex;
     background-color: black;
     color: black;
-    justify-content: center;
+    width: 100%;
+    padding: 0;
+
 }
 
+.navbar a {
+    font-family: 'Short Stack', cursive;
+    font-weight: bold;
+    font-size: 600;
+    color: #D5BEFA;
+}
+
+/* Background Image */
 
 .background-image {
     background: url("../images/ramones_onstage.jpg") no-repeat bottom right fixed;
@@ -23,4 +35,25 @@ body {
     background-position: center;
     height: 100vh;
     width: 100vw;
+
+}
+
+/* Display Header */
+
+.display-1 {
+    color: #D5BEFA;
+    font-family: 'Nosifer', cursive;
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+
+.display-2 {
+    color: #8452D7;
+    font-family: 'Nosifer', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
 }
