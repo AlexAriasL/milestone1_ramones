@@ -2,39 +2,52 @@
 
 body {
     font-family: 'Short+Stack', sans-serif;
-    background-color: black;
+    background-color: #000000;
+    font-family: 'Short Stack', cursive;
+    color: #E6E6FA;
 }
 
 /* Navbar */
 
-.navbar {
-    display: flex;
-    background-color: black;
-    color: black;
-    width: 100%;
+.navbar-container{
     padding: 0;
+}
+
+.navbar {
+   margin-bottom:0;
+    border:0;
+    width: 100%;
+
 
 }
 
-.navbar a {
+.navbar .navbar-nav .nav-item .nav-link{
     font-family: 'Short Stack', cursive;
     font-weight: bold;
     font-size: 600;
     color: #D5BEFA;
+
 }
+
+
+
 
 /* Background Image */
 
-.background-image {
-    background: url("../images/ramones_onstage.jpg") no-repeat bottom right fixed;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+.header-landing {
+    background-image:  url("../images/ramones_onstage.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    width: 100vw;
+    width: 100vh;
+    position: relative;
+
+
+
 
 }
 
@@ -46,14 +59,9 @@ body {
     font-weight: 800;
     font-size: 60px;
     text-align: center;
+    margin-top: 60px;
 
 }
 
 
-.display-2 {
-    color: #8452D7;
-    font-family: 'Nosifer', cursive;
-    font-weight: 400;
-    font-size: 40px;
-    text-align: center;
-}
+
