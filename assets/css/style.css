@@ -5,6 +5,10 @@ body {
     background-color: #000000;
     font-family: 'Short Stack', cursive;
     color: #E6E6FA;
+    padding: 0;
+    margin: 0;
+
+
 }
 
 /* Navbar */
@@ -32,7 +36,7 @@ body {
 
 
 
-/* Background Image */
+/*-------------------------------------- Background Image Landing Page */
 
 .header-landing {
     background-image:  url("../images/ramones_onstage.jpg");
@@ -47,21 +51,33 @@ body {
     position: relative;
 
 
-
-
 }
 
-/* Display Header */
 
-.display-1 {
-    color: #D5BEFA;
+
+
+/*-------------------------------------- Section*/
+
+section{
+    min-height: 450px;
+    margin-top: 65px;
+}
+
+.section-heading {
     font-family: 'Nosifer', cursive;
-    font-weight: 800;
-    font-size: 60px;
-    text-align: center;
-    margin-top: 60px;
-
+    font-weight: 300;
+    color: #D5BEFA;
+    position: fixed;
 }
 
+/*-------------------------------------- Footer */
 
+footer {
+    min-height: 50px;
+    padding: 0;
+}
 
+.footer-details {
+    vertical-align: bottom;
+
+}
