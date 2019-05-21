@@ -101,6 +101,11 @@ section{
     display: block;
 }
 
+.col {
+    margin-top: 25px;
+
+}
+
 
 
 /*-------------------------------------- Footer */
