@@ -1,3 +1,5 @@
+/*
+
 @import url('https://fonts.googleapis.com/css?family=Short+Stack:100,200,300,400,500,600,700|Nosifer:100,200,300,400,500,600,700,800,100');
 
 body {
@@ -12,7 +14,7 @@ body {
 
 }
 
-/* Navbar */
+/* Navbar
 
 .navbar-container{
     padding: 0;
@@ -46,7 +48,7 @@ body {
 
 
 
-/*-------------------------------------- Background Image Landing Page */
+/*-------------------------------------- Background Image Landing Page
 
 .wraper-landing {
     height: 100vh;
@@ -70,7 +72,7 @@ body {
 
 
 
-/*-------------------------------------- Section*/
+/*-------------------------------------- Section
 
 section{
     min-height: 450px;
@@ -108,7 +110,7 @@ section{
 
 
 
-/*-------------------------------------- Footer */
+/*-------------------------------------- Footer
 
 footer {
     min-height: 50px;
@@ -148,3 +150,5 @@ i {
     color: 	#6A5ACD;
     font-weight: bold;
 }
+
+*/
