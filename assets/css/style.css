@@ -1,3 +1,25 @@
+body {
+   }
+
+h2 {
+    text-align: center;
+}
+
+.landing-container {
+
+    height: 100vh;
+    width: 100vw;
+    background: url("../images/ramones_onstage.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+
+.music-container {}
+
+
 /*
 
 @import url('https://fonts.googleapis.com/css?family=Short+Stack:100,200,300,400,500,600,700|Nosifer:100,200,300,400,500,600,700,800,100');

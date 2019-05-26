@@ -9,28 +9,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" /> </head>
+
 <!--navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
-        <ul class="navbar-nav">
-            <li class="nav-item active"> <a class="nav-link" href="index.html">Ramones<span class="sr-only">(current)</span></a> </li>
-            <li class="nav-item"> <a class="nav-link" href="music.html">Music</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="video.html">Video</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="bio.html">Bio</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="book-us.html">Book Us!</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="tour-dates.html">Tour Dates</a> </li>
-        </ul>
-    </div>
-</nav>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+            <ul class="navbar-nav">
+                <li class="nav-item active"> <a class="nav-link" href="index.html">Ramones<span class="sr-only">(current)</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" href="music.html">Music</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="video.html">Video</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="bio.html">Bio</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="book-us.html">Book Us!</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="tour-dates.html">Tour Dates</a> </li>
+            </ul>
+        </div>
+    </nav>
+
 <!--/navbar-->
 
-<!--Lading page-->
-<div class="container">
-    <h1>Ramones</h1>
+<!--Landing page-->
+<div class="container-fluid landing-container">
     <div class="row">
-        <div class="col"> <img src="../assets/images/ramones_onstage.jpg" alt="Ramones playing on stage" width="100%" height="100%"></img>
+        <div id="col">
         </div>
     </div>
 </div>
@@ -38,7 +39,7 @@
 <hr>
 
 <!--Music Section-->
-<div class="container">
+<div class="container music-container">
     <h2>Music</h2>
     <div class="row">
         <div class="col-6 audio-tracks"> <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/214807532&color=%236a5acd&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>            </div>
@@ -57,7 +58,7 @@
 <hr>
 
 <!--Video Section-->
-<div class="container">
+<div class="container video-container">
     <h2>Video</h2>
     <div class="row">
         <div class="embed-responsive embed-responsive-16by9 col-6"> <iframe width="560" height="315" src="https://www.youtube.com/embed/-CRAXIZoZv0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
@@ -79,35 +80,35 @@
 <hr>
 
 <!--Bio Section-->
-<div class="container">
+<div class="container bio-container">
     <h2>Bio</h2>
     <div class="row">
         <div class="card-deck">
-            <div class="card"> <img class="card-img-top" src="../assets/images/joey_ramone.jpg" alt="Card image cap">
+            <div class="card"> <img class="card-img-top" src="../assets/images/joey_ramone.jpg" alt="Card image cap" height="300">
                 <div class="card-body">
                     <h5 class="card-title">Joey Ramone</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                 </div>
                 <div class="card-footer"> <small class="text-muted">Last updated 3 mins ago</small> </div>
             </div>
-            <div class="card"> <img class="card-img-top" src="../assets/images/johnny_ramone.jpg" alt="Card image cap">
+            <div class="card"> <img class="card-img-top" src="../assets/images/johnny_ramone.jpg" alt="Card image cap" height="300">
                 <div class="card-body">
                     <h5 class="card-title">Johnny Ramone</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">ThLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                 </div>
                 <div class="card-footer"> <small class="text-muted">Last updated 3 mins ago</small> </div>
             </div>
-            <div class="card"> <img class="card-img-top" src="../assets/images/dee_dee_ramone.jpg" alt="Card image cap">
+            <div class="card"> <img class="card-img-top" src="../assets/images/dee_dee_ramone.jpg" alt="Card image cap" height="300">
                 <div class="card-body">
                     <h5 class="card-title">Dee Dee Ramone</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                 </div>
                 <div class="card-footer"> <small class="text-muted">Last updated 3 mins ago</small> </div>
             </div>
-            <div class="card"> <img class="card-img-top" src="../assets/images/tommy_ramone.jpg" alt="Card image cap">
+            <div class="card"> <img class="card-img-top" src="../assets/images/tommy_ramone.jpg" alt="Card image cap" height="300">
                 <div class="card-body">
                     <h5 class="card-title">Tommy Ramone</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                 </div>
                 <div class="card-footer"> <small class="text-muted">Last updated 3 mins ago</small> </div>
             </div>
@@ -119,7 +120,7 @@
 <!--/Bio Section-->
 
 <!--Book Us Section-->
-<div class="container">
+<div class="container book-us-container">
     <h2>Book Us!</h2>
     <div class="row">
         <div class="col">
@@ -132,7 +133,7 @@
                     <input type="tel" name="phone" id="phonenumber" class="form-control" placeholder="Phone:" required/>
                     <input type="text" name="location" id="eventlocation" class="form-control" placeholder="Event Location:" required/>
                     <input type="date" name="date" id="eventdate" class="form-control" required/>
-                    <textarea rows="5" name="eventdeails" id="eventdetails" class="form-control" placeholder="Event Details:" required/></textarea>
+                    <textarea rows="5" name="eventdetails" id="eventdetails" class="form-control" placeholder="Event Details:" required/></textarea>
                     <div class="form-row text-center">
                         <div class="col"> <button type="submit" class="btn btn-secondary">Hey Ho! Let's Go!</button> </div>
                     </div>
@@ -145,7 +146,7 @@
 <hr>
 
 <!--Tour Dates Section-->
-<div class="container">
+<div class="container tour-dates-container">
     <h2>Tour Dates</h2>
     <div class="row">
         <div class="col">
@@ -210,37 +211,38 @@
 <hr>
 
 <!--Footer-->
-<div class="container">
+<div class="container footer-container">
     <div class="row">
         <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Keep Up With Us!</h5>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item"> <a target="_blank" href="#">
+            <h5 class="uppercase general-sub">Keep Up With Us!</h5>
+            <ul class="list-inline social-links">
+                <li class="list-inline-item"> <a target="_blank" href="#">
                     <i class="fab fa-facebook" aria-hidden="true"></i>
                     <span class="sr-only">Facebook</span>
                     </a> </li>
-                    <li class="list-inline-item"> <a target="_blank" href="#">
+                <li class="list-inline-item"> <a target="_blank" href="#">
                     <i class="fab fa-twitter" aria-hidden="true"></i>
                     <span class="sr-only">Twitter</span>
                     </a> </li>
-                    <li class="list-inline-item"> <a target="_blank" href="#">
-                    <i class="fab fa-linkedin" aria-hidden="true"></i>
-                    <span class="sr-only">LinkedIn</span>
-                    </a> </li>
-                    <li class="list-inline-item"> <a target="_blank" href="#">
+
+                <li class="list-inline-item"> <a target="_blank" href="#">
                     <i class="fab fa-pinterest" aria-hidden="true"></i>
                     <span class="sr-only">Pinterest</span>
                     </a> </li>
-                    <li class="list-inline-item"> <a target="_blank" href="#">
+                <li class="list-inline-item"> <a target="_blank" href="#">
                     <i class="fab fa-instagram" aria-hidden="true"></i>
                     <span class="sr-only">Instagram</span>
                     </a> </li>
-                    <li class="list-inline-item"> <a target="_blank" href="#">
+                <li class="list-inline-item"> <a target="_blank" href="#">
                     <i class="fab fa-youtube" aria-hidden="true"></i>
                     <span class="sr-only">YouTube</span>
                     </a> </li>
-                </ul>
-            </div>
+                <li class="list-inline-item"> <a target="_blank" href="#">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    <span class="sr-only">LinkedIn</span>
+                    </a> </li>
+            </ul>
+        </div>
     </div>
 </div>
 <!--/Footer-->
