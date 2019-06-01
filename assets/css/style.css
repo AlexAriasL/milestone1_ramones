@@ -1,4 +1,7 @@
-body {   }
+body {
+    margin:0;
+
+}
 
 h2 {
     text-align: center;
@@ -13,10 +16,13 @@ h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+   background-position: left top;
 
   }
 
 .music-container {}
+
+
 
 
 /*
