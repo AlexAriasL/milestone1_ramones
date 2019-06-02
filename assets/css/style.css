@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #121214;
+    position: relative;
 
 
 }
@@ -44,7 +45,7 @@ td {
       color: #EDF6F4;
 }
 
-#buy-tickes {
+.buy-tickes {
     color: #EDF6F4;
     background-color: #483381;
 }
@@ -59,6 +60,13 @@ td {
     font-weight: bold;
     font-size: 700;
     color: #D5BEFA;
+
+
+}
+
+.nav-pill {
+    background-color: white;
+
 
 }
 
@@ -89,6 +97,10 @@ td {
 .embed-responsive {
 
   margin: 25px
+}
+
+#submit-booking-query{
+    margin-top: 10px;
 }
 
 
