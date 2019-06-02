@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #121214;
 
+
 }
 
 
@@ -13,10 +14,53 @@ h2 {
     font-family: 'Nosifer', cursive;
     font-weight: 300;
     color: #D5BEFA;
-    margin-top: 60;
-    margin-bottom: 40px;
+    padding-top: 80px;
+
 }
 
+h3 {
+     font-family: 'Short Stack', cursive;
+    font-weight: bold;
+    color: #D5BEFA;
+
+}
+
+h4 {
+     font-family: 'Short Stack', cursive;
+    font-weight: bold;
+    color: #D5BEFA;
+
+}
+
+h5 {
+    font-family: 'Short Stack', cursive;
+    font-weight: bold;
+    color: #D5BEFA;
+}
+
+td {
+
+      font-family: 'Short Stack', cursive;
+      color: #EDF6F4;
+}
+
+#buy-tickes {
+    color: #EDF6F4;
+    background-color: #483381;
+}
+
+#submit-booking-query {
+     color: #EDF6F4;
+    background-color: #483381;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    font-family: 'Short Stack', cursive;
+    font-weight: bold;
+    font-size: 700;
+    color: #D5BEFA;
+
+}
 
 .landing-container {
 
@@ -52,157 +96,4 @@ h2 {
 
 
 
-/*
 
-@import url('https://fonts.googleapis.com/css?family=Short+Stack:100,200,300,400,500,600,700|Nosifer:100,200,300,400,500,600,700,800,100');
-
-body {
-    font-family: 'Short+Stack', sans-serif;
-    background-color: #000000;
-    font-family: 'Short Stack', cursive;
-    color: #E6E6FA;
-    padding: -100px;
-    margin: 0;
-    max-height: 100vh;
-    max-width: 100vw;
-
-}
-
-/* Navbar
-
-.navbar-container{
-    padding: 0;
-}
-
-.navbar {
-   margin-bottom:0;
-    border:0;
-    width: 100%;
-
-}
-
-.navbar-toggler-icon {
-
-   border: 2px;
-   border-bottom-color: rgba(213, 190, 250,0.2);
-   color: rgba(213, 190, 250,0.2);
-
-}
-
-
-
-.navbar .navbar-nav .nav-item .nav-link{
-    font-family: 'Short Stack', cursive;
-    font-weight: bold;
-    font-size: 600;
-    color: #D5BEFA;
-
-}
-
-
-
-
-/*-------------------------------------- Background Image Landing Page
-
-.wraper-landing {
-    height: 100vh;
-}
-
-.header-landing {
-    background-image:  url("../images/ramones_onstage.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: 100vh;
-    position: relative;
-    margin-top: 55px;
-
-}
-
-
-
-
-/*-------------------------------------- Section
-
-section{
-    min-height: 450px;
-    margin-top: 65px;
-}
-
-.header-section {
-    padding-bottom: 30px;
-    margin-bottom: 20px;
-}
-
-.section-heading {
-    font-family: 'Nosifer', cursive;
-    font-weight: 300;
-    color: #D5BEFA;
-    position: fixed;
-
-}
-
-.audio-tracks{
-        margin-bottom: 25px;
-
-}
-
-.embed-responsive-16by9 {
-    max-height: 10%;
-    max-width: 15%;
-    display: block;
-}
-
-.col {
-    margin-top: 25px;
-
-}
-
-
-
-/*-------------------------------------- Footer
-
-footer {
-    min-height: 50px;
-    padding: 0;
-}
-
-
-
-.footer-details {
-    vertical-align: bottom;
-
-}
-
-.footer-container{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height:80px;
-    background-color: #343A40;
-    padding-top: 15px;
-    padding-right: 0;
-    padding-left: 50px;
-}
-
-.ist-inline .social-links {
-
-}
-
-h5 {
-    font-family: 'Short Stack', cursive;
-    font-weight: bold;
-    color: #D5BEFA;
-}
-
-i {
-    color: 	#6A5ACD;
-    font-weight: bold;
-}
-
-*/
