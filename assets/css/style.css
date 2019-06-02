@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Short+Stack:100,200,300,400,500,600,700|Nosifer:100,200,300,400,500,600,700,800,100');
+
 body {
-    margin:0;
+    margin: 0;
+    padding: 0;
+    background-color: #121214;
 
 }
+
 
 h2 {
     text-align: center;
+    font-family: 'Nosifer', cursive;
+    font-weight: 300;
+    color: #D5BEFA;
+    margin-top: 60;
+    margin-bottom: 40px;
 }
+
 
 .landing-container {
 
@@ -16,11 +27,27 @@ h2 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-   background-position: left top;
+    background-position: left top;
 
-  }
+}
 
 .music-container {}
+
+.music-card{
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.video-container {}
+
+
+.embed-responsive {
+
+  margin: 25px
+}
+
+
 
 
 
