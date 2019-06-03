@@ -59,13 +59,13 @@ td {
     font-family: 'Short Stack', cursive;
     font-weight: bold;
     font-size: 700;
-    color: #D5BEFA;
+     color:  #D5BEFA;
+
 
 
 }
 
-.nav-pill {
-    background-color: white;
+.nav-link {
 
 
 }
@@ -89,6 +89,7 @@ td {
 
     margin-top: 25px;
     margin-bottom: 25px;
+
 }
 
 .video-container {}
