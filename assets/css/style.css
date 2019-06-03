@@ -16,6 +16,7 @@ h2 {
     font-weight: 300;
     color: #D5BEFA;
     padding-top: 80px;
+    padding-bottom: 25px;
 
 }
 
@@ -87,12 +88,18 @@ td {
 
 .music-card{
 
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
 
 .video-container {}
+
+
+.embed-responsive {
+      margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 
 .embed-responsive {
