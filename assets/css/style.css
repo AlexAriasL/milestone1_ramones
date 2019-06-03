@@ -21,14 +21,14 @@ h2 {
 }
 
 h3 {
-     font-family: 'Short Stack', cursive;
+    font-family: 'Short Stack', cursive;
     font-weight: bold;
     color: #D5BEFA;
 
 }
 
 h4 {
-     font-family: 'Short Stack', cursive;
+    font-family: 'Short Stack', cursive;
     font-weight: bold;
     color: #D5BEFA;
 
@@ -42,8 +42,8 @@ h5 {
 
 td {
 
-      font-family: 'Short Stack', cursive;
-      color: #EDF6F4;
+    font-family: 'Short Stack', cursive;
+    color: #EDF6F4;
 }
 
 .buy-tickes {
@@ -52,24 +52,21 @@ td {
 }
 
 #submit-booking-query {
-     color: #EDF6F4;
+    color: #EDF6F4;
     background-color: #483381;
 }
 
-.navbar .navbar-nav .nav-item .nav-link{
+.navbar .navbar-nav .nav-item .nav-link {
     font-family: 'Short Stack', cursive;
     font-weight: bold;
     font-size: 700;
-     color:  #D5BEFA;
+    color: #D5BEFA;
 
 
 
 }
 
-.nav-link {
-
-
-}
+.nav-link {}
 
 .landing-container {
 
@@ -86,34 +83,49 @@ td {
 
 .music-container {}
 
-.music-card{
+.music-card {
 
     margin-top: 30px;
     margin-bottom: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #8D68EF;
+    background-color: black;
 
+}
+
+.audiotrack-frame {
+    background-color: black;
 }
 
 .video-container {}
 
 
-.embed-responsive {
-      margin-top: 30px;
+.embed-responsive-16by9 {
+    margin-top: 30px;
     margin-bottom: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #8D68EF;
+    background-color: black;
 }
+
 
 
 .embed-responsive {
 
-  margin: 25px
+    margin: 25px
 }
 
-#submit-booking-query{
+#submit-booking-query {
     margin-top: 10px;
 }
 
 
 
+.card-bio {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #8D68EF;
 
-
-
-
+}
