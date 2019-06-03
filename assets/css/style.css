@@ -40,7 +40,9 @@ h5 {
     color: #D5BEFA;
 }
 
-td {
+
+
+td, th{
 
     font-family: 'Short Stack', cursive;
     color: #EDF6F4;
