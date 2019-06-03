@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #121214;
+    background-color:#121214;
     position: relative;
 
 
@@ -143,3 +143,10 @@ td {
     color: #F2FAF9;
 
 }
+
+.tour-dates-container{
+    background-color: #121214;
+}
+
+
+
