@@ -3,8 +3,10 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#121214;
+   /* background-color:#121214;*/
     position: relative;
+      height: 3000px;
+  background: #1B1E1D;
 
 
 }
@@ -62,13 +64,16 @@ td, th{
     font-family: 'Short Stack', cursive;
     font-weight: bold;
     font-size: 700;
-
-
-
-
 }
 
-.nav-link {}
+.navbar-dark .navbar-nav .nav-link {
+    color: red;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: green;
+}
+
 
 .landing-container {
 
@@ -109,6 +114,13 @@ td, th{
 
 .video-container {}
 
+.iframe-buttom-align{
+   /*  position: absolute;
+    bottom: 0;
+    width: 100%;
+    vertical-align: bottom;*/
+}
+
 
 .embed-responsive-16by9 {
     margin-top: 30px;
@@ -138,6 +150,7 @@ td, th{
     border-color: #8D68EF;
     background-color: black;
 
+
 }
 
 .card-text{
@@ -147,7 +160,7 @@ td, th{
 }
 
 .tour-dates-container{
-    background-color: #121214;
+
 }
 
 
