@@ -3,12 +3,9 @@
 body {
     margin: 0;
     padding: 0;
-   /* background-color:#121214;*/
     position: relative;
-      height: 3000px;
-  background: #1B1E1D;
-
-
+    height: 3000px;
+    background: #1B1E1D;
 }
 
 
@@ -16,16 +13,18 @@ h2 {
     text-align: center;
     font-family: 'Nosifer', cursive;
     font-weight: 300;
-    color: #C4B5E9;
+    color: #D8CCFC;
     padding-top: 80px;
     padding-bottom: 25px;
 
 }
 
+
 h3 {
     font-family: 'Short Stack', cursive;
     font-weight: bold;
     color: #D5BEFA;
+
 
 }
 
@@ -36,6 +35,7 @@ h4 {
 
 }
 
+
 h5 {
     font-family: 'Short Stack', cursive;
     font-weight: bold;
@@ -44,21 +44,7 @@ h5 {
 
 
 
-td, th{
-
-    font-family: 'Short Stack', cursive;
-    color: #EDF6F4;
-}
-
-.buy-tickes {
-    color: #EDF6F4;
-    background-color: #483381;
-}
-
-#submit-booking-query {
-    color: #EDF6F4;
-    background-color: #483381;
-}
+/*---------------Navbar---------------*/
 
 .navbar .navbar-nav .nav-item .nav-link {
     font-family: 'Short Stack', cursive;
@@ -67,13 +53,18 @@ td, th{
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: red;
+    color: #D8CCFC;
 }
 
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: green;
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #000000;
+    background-color: #D8CCFC;
 }
 
+/*---------------Landing Page---------------*/
 
 .landing-container {
 
@@ -88,12 +79,15 @@ td, th{
 
 }
 
+
+/*---------------Music Section---------------*/
+
 .music-container {}
 
-.card-header{
-   font-family: 'Short Stack', cursive;
-   font-size: 20px;
-   color:  #DCD1F9;
+.card-header {
+    font-family: 'Short Stack', cursive;
+    font-size: 20px;
+    color: #DCD1F9;
 }
 
 
@@ -112,13 +106,12 @@ td, th{
 }
 
 
+/*---------------Video Section---------------*/
+
 .video-container {}
 
-.iframe-buttom-align{
-   /*  position: absolute;
-    bottom: 0;
-    width: 100%;
-    vertical-align: bottom;*/
+.iframe-buttom-align {
+    max-height: 70px;
 }
 
 
@@ -138,11 +131,14 @@ td, th{
     margin: 25px
 }
 
-#submit-booking-query {
-    margin-top: 10px;
+
+
+/*---------------Bio Section---------------*/
+
+.bio-container {
+    padding-left: 15px;
+    padding-right: 15px;
 }
-
-
 
 .card-bio {
     border-style: solid;
@@ -153,15 +149,38 @@ td, th{
 
 }
 
-.card-text{
+.card-text {
     font-family: 'Short Stack', cursive;
     color: #F2FAF9;
 
+
+/*---------------Tour Dates section---------------*/
 }
 
-.tour-dates-container{
+.tour-dates-container {}
 
+td,
+th {
+
+    font-family: 'Short Stack', cursive;
+    color: #EDF6F4;
+}
+
+.buy-tickes {
+    color: #EDF6F4;
+    background-color: #483381;
 }
 
 
+/*---------------Book Us Section---------------*/
+
+.book-us-container {}
+
+#submit-booking-query {
+     margin-top: 10px;
+    color: #EDF6F4;
+    background-color: #483381;
+}
+
+/*---------------Footer---------------*/
 
