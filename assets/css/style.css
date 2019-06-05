@@ -23,7 +23,7 @@ h2 {
 h3 {
     font-family: 'Short Stack', cursive;
     font-weight: bold;
-    color: #D5BEFA;
+    color: #D8CCFC;
 
 
 }
@@ -31,7 +31,7 @@ h3 {
 h4 {
     font-family: 'Short Stack', cursive;
     font-weight: bold;
-    color: #D5BEFA;
+    color: #D8CCFC;
 
 }
 
@@ -39,22 +39,31 @@ h4 {
 h5 {
     font-family: 'Short Stack', cursive;
     font-weight: bold;
-    color: #D5BEFA;
+    color: #D8CCFC;
 }
 
 
 
 /*---------------Navbar---------------*/
 
+.navbar-dark .navbar-brand{
+    font-family: 'Nosifer', cursive;
+    font-weight: 700;
+    color: #D8CCFC;
+    font-size: 40px;
+ }
+
+
+
 .navbar .navbar-nav .nav-item .nav-link {
     font-family: 'Short Stack', cursive;
-    font-weight: bold;
-    font-size: 700;
+    font-weight: 600;
+     color: #D8CCFC;
+     font-size:18px;
+
+
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: #D8CCFC;
-}
 
 .navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
@@ -76,6 +85,7 @@ h5 {
     -o-background-size: cover;
     background-size: cover;
     background-position: left top;
+
 
 }
 
@@ -100,19 +110,11 @@ h5 {
     border-width: 2px;
     border-color: #8D68EF;
     background-color: #000000;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
 
 
 }
 
-/*
-.iframe-audio {
-    max-height: 80px;
-    position: fixed;
-    bottom: !important;
-}
-*/
 
 
 /*---------------Video Section---------------*/
@@ -173,7 +175,7 @@ th {
 
 .buy-tickes {
     color: #EDF6F4;
-    background-color: #483381;
+    background-color: #685B9F;
 }
 
 
@@ -184,7 +186,7 @@ th {
 #submit-booking-query {
      margin-top: 10px;
     color: #EDF6F4;
-    background-color: #483381;
+    background-color: #685B9F;
 }
 
 /*---------------Footer---------------*/
