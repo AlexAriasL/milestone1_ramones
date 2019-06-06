@@ -5,7 +5,7 @@ body {
     padding: 0;
     position: relative;
     height: 3000px;
-    background: #1B1E1D;
+
 }
 
 
@@ -43,7 +43,9 @@ h5 {
 }
 
 hr {
-    margin: 2;
+    margin: 0;
+    padding: 0;
+
 }
 
 
@@ -65,13 +67,6 @@ th {
     font-size: 40px;
 }
 
-.navbar-dark .navbar-nav .active>.navbar-brand,
-.navbar-dark .navbar-nav .navbar-brand.active,
-.navbar-dark .navbar-nav .navbar-brand.show,
-.navbar-dark .navbar-nav .show>.navbar-brand {
-     background-color: #D8CCFC;
-     color:#D8CCFC;
-}
 
 
 
@@ -116,6 +111,7 @@ th {
     background-position: left top;
 
 
+
 }
 
 
@@ -125,9 +121,10 @@ th {
 
 #music-grad {
 
-    background-color: #221C2C;
-  background-image: linear-gradient(to right, #4C4160 , #221C2C);
+        background-color: #000000;
+  background-image: linear-gradient(to right, #483381, #000000);
 }
+
 
 
 .card-header {
@@ -157,6 +154,10 @@ th {
 
 .video-container {}
 
+#video-grad {
+       background-color: #000000;
+  background-image: linear-gradient(to left, #483381, #000000);
+}
 
 .embed-responsive-16by9 {
     margin-top: 30px;
@@ -177,6 +178,11 @@ th {
 
 
 /*---------------Bio Section---------------*/
+
+#bio-grad {
+       background-color: #000000;
+  background-image: linear-gradient(to right, #483381, #000000);
+}
 
 .bio-container {
     padding-left: 15px;
@@ -202,6 +208,12 @@ th {
 
 .tour-dates-container {}
 
+#tour-dates-grad {
+       background-color: #000000;
+  background-image: linear-gradient(to left, #483381, #000000);
+}
+
+
 
 .buy-tickes {
     color: #EDF6F4;
@@ -211,7 +223,12 @@ th {
 
 /*---------------Book The Band Section---------------*/
 
-.book-us-container {}
+.book-the-band-container {}
+
+#book-the-band-grad {
+       background-color: #000000;
+  background-image: linear-gradient(to right, #483381, #000000);
+}
 
 #submit-booking-query {
     margin-top: 10px;
