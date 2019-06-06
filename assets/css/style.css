@@ -42,11 +42,6 @@ h5 {
     color: #D8CCFC;
 }
 
-hr {
-    margin: 0;
-    padding: 0;
-
-}
 
 
 td,
@@ -56,7 +51,53 @@ th {
     color: #EDF6F4;
 }
 
+.block-divider {
+    margin: 0;
+    padding: 0;
+    height: 1px;
 
+}
+
+#landing-divider {
+    background-color: #000000;
+    background-image: linear-gradient(to right, #4E0C60, #000000);
+}
+
+#music-divider {
+
+    background-color: #000000;
+    background-image: linear-gradient(to right, #4E0C60, #000000);
+}
+
+#video-divider {
+    background-color: #000000;
+    background-image: linear-gradient(to left, #4E0C60, #000000);
+
+}
+
+#bio-divider {
+    background-color: #000000;
+    background-image: linear-gradient(to right, #4E0C60, #000000);
+}
+
+
+#tour-dates-divider {
+    background-color: #000000;
+    background-image: linear-gradient(to left, #4E0C60, #000000);
+}
+
+#book-the-band-divider {
+    background-color: #000000;
+    background-image: linear-gradient(to right, #4E0C60, #000000);
+
+}
+
+
+
+#footer-divider {
+    background-color: #000000;
+    background-image: linear-gradient(to left, #4E0C60, #000000);
+}
 
 /*---------------Navbar---------------*/
 
@@ -117,12 +158,14 @@ th {
 
 /*---------------Music Section---------------*/
 
-.music-container {}
+.music-container {
+    padding-bottom: 50px;
+}
 
 #music-grad {
 
-        background-color: #000000;
-  background-image: linear-gradient(to right, #4E0C60, #000000);
+    background-color: #000000;
+    background-image: linear-gradient(to right, #4E0C60, #000000);
 }
 
 
@@ -143,7 +186,8 @@ th {
     border-width: 2px;
     border-color: #8D68EF;
     background-color: #000000;
-    padding: 0;
+    padding: 5px;
+
 
 
 }
@@ -152,11 +196,13 @@ th {
 
 /*---------------Video Section---------------*/
 
-.video-container {}
+.video-container {
+    padding-bottom: 20px;
+}
 
 #video-grad {
-       background-color: #000000;
-  background-image: linear-gradient(to left, #4E0C60, #000000);
+    background-color: #000000;
+    background-image: linear-gradient(to left, #4E0C60, #000000);
 }
 
 .embed-responsive-16by9 {
@@ -170,23 +216,22 @@ th {
 
 
 
-.embed-responsive {
-
-    margin: 25px
-}
+.embed-responsive {}
 
 
 
 /*---------------Bio Section---------------*/
 
 #bio-grad {
-       background-color: #000000;
-  background-image: linear-gradient(to right,#4E0C60, #000000);
+    background-color: #000000;
+    background-image: linear-gradient(to right, #4E0C60, #000000);
 }
 
 .bio-container {
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 25px;
+
 
 }
 
@@ -195,7 +240,7 @@ th {
     border-width: 2px;
     border-color: #8D68EF;
     background-color: black;
-    margin-bottom: 30px;
+    padding: 5px;
 
 }
 
@@ -207,11 +252,13 @@ th {
     /*---------------Tour Dates section---------------*/
 }
 
-.tour-dates-container {}
+.tour-dates-container {
+    padding-bottom: 20px;
+}
 
 #tour-dates-grad {
-       background-color: #000000;
-  background-image: linear-gradient(to left, #4E0C60, #000000);
+    background-color: #000000;
+    background-image: linear-gradient(to left, #4E0C60, #000000);
 }
 
 
@@ -227,20 +274,22 @@ th {
 .book-the-band-container {}
 
 #book-the-band-grad {
-       background-color: #000000;
-  background-image: linear-gradient(to right, #4E0C60, #000000);
+    background-color: #000000;
+    background-image: linear-gradient(to right, #4E0C60, #000000);
 }
 
 #submit-booking-query {
     margin-top: 10px;
     background-color: #483381;
     font-family: 'Short Stack', cursive;
+    margin-bottom: 30px;
 }
 
 /*---------------Footer---------------*/
 
 .footer-container {
-    padding-top: 40px;
+    background-color: #343a40;
+    height: 90px;
 }
 
 .fab {

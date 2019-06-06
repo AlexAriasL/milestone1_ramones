@@ -1,18 +1,11 @@
+# The Ramones Website
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+The porpuse of this project is to create a website for the legendary punk band Ramoes.
+These are the basic objectives the website should achieve:
 
-
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+1. Showcase the band's music and video production.
+2. Provide basic biographical facts about the band memembers.
+3. Inform fans and potential fans with information about tour dates.
+4. Allow fans and potential fans to purchase tikects for upcoming gigs.
+5. Serve as a hub for the ban's social media presence.
+6. Provide a platform for festival organizers and promoters that may be interested in hiring the band.
