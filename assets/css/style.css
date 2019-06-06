@@ -51,6 +51,8 @@ th {
     color: #EDF6F4;
 }
 
+/*---------------Section Dividers---------------*/
+
 .block-divider {
     margin: 0;
     padding: 0;
@@ -150,7 +152,6 @@ th {
     -o-background-size: cover;
     background-size: cover;
     background-position: left top;
-
 
 
 }

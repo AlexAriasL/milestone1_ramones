@@ -7,10 +7,13 @@ These are the basic objectives the website should achieve:
 2. Provide basic biographical facts about the band memembers.
 3. Inform fans and potential fans with information about tour dates.
 4. Allow fans and potential fans to purchase tikects for upcoming gigs.
-5. Serve as a hub for the ban's social media presence.
+5. Serve as a hub for the band's social media presence.
 6. Provide a platform for festival organizers and promoters that may be interested in hiring the band.
 
 ---
+
+## Wireframes:
+[The wireframes for this project are available on GitHub](https://github.com/AlexAriasL/milestone1_ramones/blob/master/ramones_wireframes.pdf)
 
 
 ## Technologies Used:
@@ -66,6 +69,62 @@ that may want to hire the band.
 
 ### Foooter Section:
 This space is reserved for social media links.
+
+## Testing:
+
+### Browsers:
+The site was tested on the follwoing browsers:
+
+1. Google Chrome version 74.0.3729.169 (Official Build) (64-bit)
+2. Mozilla Firefox Quatum 67.0 (64-bit)
+3. Microsoft Edge 42.17134.1.0
+
+### Devices:
+The site was testes on these devices:
+1. Lenovo 20L8S0E00A running Microsot Windows 10 Enterprise.
+2. Moto G5 running Android version 8.1.0
+
+### Virtual Testing.
+Virtual testion was conducted using all the devices available on Google devtools.
+
+
+## Validation:
+1. [HMTL:validated with the W3C Markup Validation Service](https://validator.w3.org/).
+2. [CSS: validated with the W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+
+
+## Deployment:
+
+
+## Credits:
+
+### Pictures:
+1. Ramones On Stage (Landing Page) from [Super Seventies](https://superseventies.tumblr.com).
+2. Joey Ramone (Bio Section) from [Wikipedia](https://olo.wikipedia.org/wiki/Joey_Ramone#/media/Failu:Joeyramone.jpg).
+3. Johnny Ramone (Bio Section) fron [Wikimedia Commons.](https://commons.wikimedia.org/wiki/File:Johnny-Ramone_1977.jpg)
+4. Dee Dee Ramone (Bio Section) from [Wikipedia.](https://en.wikipedia.org/wiki/Dee_Dee_Ramone#/media/File:Dee_Dee_Ramone.jpg)
+5. Tommy Ramone (Bio Section) from [Rock and Roll Paradise.](https://rockandrollparadise.com/tommy-ramone-72014/)
+6
+
+### Audiotracks:
+All Sourced from the [Ramones channel on Soundcloud.](https://soundcloud.com/ramones)
+
+### Videoclips:
+1. "Blitzkrieg Bop" live from [Ramones Music on YouTube.](https://www.youtube.com/channel/UCia3sM3GMVzQhau9GcO7i6w)
+2. "I Wanna Be Sedatted" from [Rhino Music on YouTube.](https://www.youtube.com/user/RhinoEntertainment/featured)
+3. "Sheena Is a Punk Rocker" from [Rhino Music on YouTube.](https://www.youtube.com/user/RhinoEntertainment/featured)
+4. "I'm Against It" from [Rhino Music on YouTube.](https://www.youtube.com/user/RhinoEntertainment/featured)
+5. "She Is The ONe" from [Rhino Music on YouTube.](https://www.youtube.com/user/RhinoEntertainment/featured)
+6. "Pet Sematary" from [Ramones Music on YouTube.](https://www.youtube.com/channel/UCia3sM3GMVzQhau9GcO7i6w)
+
+
+
+
+
+
+
+
+
 
 
 
