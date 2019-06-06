@@ -12,7 +12,7 @@ body {
 h2 {
     text-align: center;
     font-family: 'Nosifer', cursive;
-    font-weight: 300;
+    font-weight: 500;
     color: #D8CCFC;
     padding-top: 80px;
     padding-bottom: 25px;
@@ -23,7 +23,7 @@ h2 {
 h3 {
     font-family: 'Short Stack', cursive;
     font-weight: bold;
-    color: #D8CCFC;
+    color: #BCAFFC;
 
 
 }
@@ -31,7 +31,7 @@ h3 {
 h4 {
     font-family: 'Short Stack', cursive;
     font-weight: bold;
-    color: #D8CCFC;
+    color: #BCAFFC;
 
 }
 
@@ -42,24 +42,28 @@ h5 {
     color: #D8CCFC;
 }
 
+hr {
+    margin: 5;
+}
+
 
 
 /*---------------Navbar---------------*/
 
-.navbar-dark .navbar-brand{
+.navbar-dark .navbar-brand {
     font-family: 'Nosifer', cursive;
     font-weight: 700;
     color: #D8CCFC;
     font-size: 40px;
- }
+}
 
 
 
 .navbar .navbar-nav .nav-item .nav-link {
     font-family: 'Short Stack', cursive;
     font-weight: 600;
-     color: #D8CCFC;
-     font-size:18px;
+    color: #D8CCFC;
+    font-size: 18px;
 
 
 }
@@ -71,6 +75,15 @@ h5 {
 .navbar-dark .navbar-nav .show>.nav-link {
     color: #000000;
     background-color: #D8CCFC;
+}
+
+
+.navbar-toggler-icon {
+    color: #8D68EF;
+    border-color: #8D68EF;
+    border-style: solid;
+    border-width: 1px;
+
 }
 
 /*---------------Landing Page---------------*/
@@ -161,7 +174,7 @@ h5 {
     color: #F2FAF9;
 
 
-/*---------------Tour Dates section---------------*/
+    /*---------------Tour Dates section---------------*/
 }
 
 .tour-dates-container {}
@@ -175,7 +188,7 @@ th {
 
 .buy-tickes {
     color: #EDF6F4;
-    background-color: #685B9F;
+    background-color: #483381;
 }
 
 
@@ -184,10 +197,21 @@ th {
 .book-us-container {}
 
 #submit-booking-query {
-     margin-top: 10px;
-    color: #EDF6F4;
-    background-color: #685B9F;
+    margin-top: 10px;
+    background-color: #483381;
+    font-family: 'Short Stack', cursive;
 }
 
 /*---------------Footer---------------*/
 
+.footer-container {
+    padding-top: 40px;
+}
+
+.fab {
+    color: #F3EF0E;
+}
+
+.list-inline .social-links {
+    color: yellow;
+}
