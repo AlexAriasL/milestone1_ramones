@@ -43,7 +43,15 @@ h5 {
 }
 
 hr {
-    margin: 5;
+    margin: 2;
+}
+
+
+td,
+th {
+
+    font-family: 'Short Stack', cursive;
+    color: #EDF6F4;
 }
 
 
@@ -55,6 +63,14 @@ hr {
     font-weight: 700;
     color: #D8CCFC;
     font-size: 40px;
+}
+
+.navbar-dark .navbar-nav .active>.navbar-brand,
+.navbar-dark .navbar-nav .navbar-brand.active,
+.navbar-dark .navbar-nav .navbar-brand.show,
+.navbar-dark .navbar-nav .show>.navbar-brand {
+     background-color: #D8CCFC;
+     color:#D8CCFC;
 }
 
 
@@ -107,6 +123,13 @@ hr {
 
 .music-container {}
 
+#music-grad {
+
+    background-color: #221C2C;
+  background-image: linear-gradient(to right, #4C4160 , #221C2C);
+}
+
+
 .card-header {
     font-family: 'Short Stack', cursive;
     font-size: 20px;
@@ -141,7 +164,7 @@ hr {
     border-style: solid;
     border-width: 2px;
     border-color: #8D68EF;
-    background-color: black;
+    background-color: #606364;
 }
 
 
@@ -179,12 +202,6 @@ hr {
 
 .tour-dates-container {}
 
-td,
-th {
-
-    font-family: 'Short Stack', cursive;
-    color: #EDF6F4;
-}
 
 .buy-tickes {
     color: #EDF6F4;
@@ -192,7 +209,7 @@ th {
 }
 
 
-/*---------------Book Us Section---------------*/
+/*---------------Book The Band Section---------------*/
 
 .book-us-container {}
 
@@ -213,5 +230,5 @@ th {
 }
 
 .list-inline .social-links {
-    color: yellow;
+    color: #F5F83A;
 }
