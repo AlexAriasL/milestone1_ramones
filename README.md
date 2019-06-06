@@ -4,8 +4,8 @@ The porpuse of this project is to create a website for the legendary punk band R
 These are the basic objectives the website should achieve:
 
 1. Showcase the band's music and video production.
-2. Provide basic biographical facts about the band memembers.
-3. Inform fans and potential fans with information about tour dates.
+2. Provide basic biographical facts about the band members.
+3. Inform fans and potential fans about tour dates.
 4. Allow fans and potential fans to purchase tikects for upcoming gigs.
 5. Serve as a hub for the band's social media presence.
 6. Provide a platform for festival organizers and promoters that may be interested in hiring the band.
@@ -28,9 +28,9 @@ These are the basic objectives the website should achieve:
 
 
 ## UX & Design
-The main concern was  for the site to be an accurate reflection of the DIY/unpolished style Ramones.
+The main concern was for the site to be an accurate reflection of the DIY/unpolished style that characterized the Ramones.
 Becuae of this, we opted for a stripped down look and fonts that emulate handwiting.
-he idea was to replicate handwritten notes on a notebook or scrap of paper. Furthermore,
+The idea was to replicate handwritten notes on a notebook or scrap of paper. Furthermore,
 we wanted the site to be simple, clear an direct. In terms of colours, we opted for a pallete made up of black,
 a few shades and tints of purple (navbar and different heders) and yellow (to emphasize the socia media links).
 
@@ -94,6 +94,7 @@ Virtual testion was conducted using all the devices available on Google devtools
 
 
 ## Deployment:
+The website was deployed on GitHub
 
 
 ## Credits:
@@ -116,6 +117,16 @@ All Sourced from the [Ramones channel on Soundcloud.](https://soundcloud.com/ram
 4. "I'm Against It" from [Rhino Music on YouTube.](https://www.youtube.com/user/RhinoEntertainment/featured)
 5. "She Is The ONe" from [Rhino Music on YouTube.](https://www.youtube.com/user/RhinoEntertainment/featured)
 6. "Pet Sematary" from [Ramones Music on YouTube.](https://www.youtube.com/channel/UCia3sM3GMVzQhau9GcO7i6w)
+
+
+## Acknowledgements:
+
+This project wouldn't have been possible without the support and generosity of my mentors at Code Institute
+(SSimen Daehlin & Guido Cecilio).
+A very special thank you to Anna Greaves for her constant advice and for putting together so many useful &
+clear learning documentation.
+Thanks to the tutors, in particular to Haley Schafer for her patience and a valuable advice.
+
 
 
 
